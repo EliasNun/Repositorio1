@@ -13,7 +13,7 @@ popupWhatsApp = () => {
     
     sendBtn.addEventListener("click", () => {
         let msg = document.getElementById('whats-in').value;
-
+        let relmsg = msg.replace(/ /g,"%20");
 
      })    
 }
