@@ -6,14 +6,14 @@ popupWhatsApp = () => {
  
     btnClosePopup.addEventListener("click",  () => {
         popup.classList.toggle('is-active-whatsapp-popup')
-        popupWhatsApp = () => {)
+        popupWhatsApp = () => {
      btnOpenPopup.addEventListener("click",  () => {
         popup.classList.toggle('is-active-whatsapp-popup')
     })
     
     sendBtn.addEventListener("click", () => {
     let msg = document.getElementById('whats-in').value;
-    let relmsg = msg.replace(//g,"%20");
+    let relmsg = msg.replace(/ /g,"%20");
 
        window.open('https://wa.me/521557153381?text='+relmsg, '_blank'); 
     });
