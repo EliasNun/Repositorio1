@@ -6,5 +6,6 @@ popupWhatsApp = () => {
  
     btnClosePopup.addEventListener("click",  () => {
         popup.classList.toggle('is-active-whatsapp-popup')
-
+        popupWhatsApp = () => {)
+            
 }
