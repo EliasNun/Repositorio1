@@ -5,6 +5,6 @@ popupWhatsApp = () => {
     let sendBtn = document.getElementById('send-btn');
  
     btnClosePopup.addEventListener("click",  () => {
-
+        popup.classList.toggle('is-active-whatsapp-popup')
 
 }
