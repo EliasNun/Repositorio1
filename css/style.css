@@ -165,10 +165,13 @@ img{
 }
 
 .float{
+    position:fixed;
+	width:60px;
+	height:60px;
+	bottom: 15px;
 
 
 
 
 
-    
 }   
