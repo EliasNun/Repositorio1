@@ -291,3 +291,14 @@ img{
       font-size: 0.9em;
     }
   }
+
+  .popup-whatsapp > .content-whatsapp.-top {
+    display: flex;
+    flex-direction: column;
+  }
+  .popup-whatsapp > .content-whatsapp.-top p {
+    color: #585858;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.0em;
+  }
