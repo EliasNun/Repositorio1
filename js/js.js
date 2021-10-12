@@ -23,4 +23,3 @@ popupWhatsApp = () => {
     }, 3000);
 }
 
-popupWhatsApp();
