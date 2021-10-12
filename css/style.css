@@ -372,3 +372,20 @@ img{
     outline: none;
     transition: .3s;
   }
+
+  @media (max-width: 420px) {
+    input.whats-input[type=text] {
+      width: 225px;
+    }
+  }
+  input.whats-input::placeholder {
+    /* Most modern browsers support this now. */
+    color: rgba(68, 68, 68, 0.705);
+    opacity: 1;
+  }
+  input.whats-input[type=text]:focus {
+    background-color: #f8f8f8;
+    -webkit-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+    transition: .3s;
+  }
