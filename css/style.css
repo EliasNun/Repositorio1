@@ -324,3 +324,25 @@ img{
     -moz-box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
     box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
   }
+
+  .closePopup:hover {
+    background-color: #3d9e5a;
+    transition: .3s;
+  }
+  
+  .send-msPopup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0px 0px 0px 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
+    -moz-box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
+    box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
+  }
