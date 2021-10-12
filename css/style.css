@@ -302,3 +302,25 @@ img{
     font-weight: 400;
     font-size: 1.0em;
   }
+
+  .popup-whatsapp > .content-whatsapp.-bottom {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .closePopup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    margin: 0px 0px 15px 0px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #4cc370;
+    -webkit-box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
+    -moz-box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
+    box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
+  }
