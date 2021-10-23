@@ -180,7 +180,11 @@ img{
     width:240px;
     height:40px ;
     padding: 0 20px;
-    
+    font-size: 18px;
+    color:black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
   }
 
 
