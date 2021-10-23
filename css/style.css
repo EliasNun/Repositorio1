@@ -147,23 +147,26 @@ img{
 
     font-family: 'Caveat', cursive;
 }
-
+/* Las redes sociales */
 .fa-facebook-square{
-   color: #fff;
+   color:blue;
 }
 
 .fa-phone{
-    color:#fff;
+    color:#333333;
 }
 
 .fa-envelope-square{
-    color: #fff;
+    color:crimson;
 }
 
 .section Servicios text-center{
     background-color: black;
 }
 
+
+
+/*                         Boton de whatsapp                              */
 .float{
     position:fixed;
 	width:60px;
