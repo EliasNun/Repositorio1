@@ -132,7 +132,9 @@ img{
  text-align: center;
  margin: auto;
 
-
+ color:black;
+ opacity: 1.2;
+ 
 }
 
 .header{
@@ -150,6 +152,10 @@ img{
 /* Las redes sociales */
 .fa-facebook-square{
    color:blue;
+   background-color: white;
+   width: 55px;
+   height: 75px;
+    border-radius: 10px;
 }
 
 .fa-phone{
@@ -164,8 +170,22 @@ img{
     background-color: black;
 }
 
+/* Buscador para las cosas*/
+
+  .buscar {
+    position:absolute;
+    padding: 5px;
+  }
+  .buscar input{
+    width:240px;
+    height:40px ;
+    padding: 0 20px;
+    
+  }
 
 
+
+/* Fin del buscador para las cosas*/
 /*                         Boton de whatsapp                              */
 .float{
     position:fixed;
