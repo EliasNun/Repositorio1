@@ -1,37 +1,37 @@
 $(document).ready(function(){
 
 	// AGREGANDO CLASE ACTIVE AL PRIMER ENLACE ====================
-	$('Lista-de-categorias Item-de-categoria[category="all"]').addClass('ct_item-active');
+	$('.category_list .category_item[category="all"]').addClass('ct_item-active');
 
 	// FILTRANDO PRODUCTOS  ============================================
 
-	$('Item-de-categoria').click(function(){
+	$('.category_item').click(function(){
 		var catProduct = $(this).attr('category');
 		console.log(catProduct);
 
 		// AGREGANDO CLASE ACTIVE AL ENLACE SELECCIONADO
-		$('Item-de-categoria').removeClass('ct_item-active');
+		$('.category_item').removeClass('ct_item-active');
 		$(this).addClass('ct_item-active');
 
 		// OCULTANDO PRODUCTOS =========================
-		$('Item-del-producto').css('transform', 'scale(0)');
+		$('.product-item').css('transform', 'scale(0)');
 		function hideProduct(){
-			$('Item-del-producto').hide();
+			$('.product-item').hide();
 		} setTimeout(hideProduct,400);
 
 		// MOSTRANDO PRODUCTOS =========================
 		function showProduct(){
-			$('Item-del-producto[category="'+catProduct+'"]').show();
-			$('Item-del-producto[category="'+catProduct+'"]').css('transform', 'scale(1)');
+			$('.product-item[category="'+catProduct+'"]').show();
+			$('.product-item[category="'+catProduct+'"]').css('transform', 'scale(1)');
 		} setTimeout(showProduct,400);
 	});
 
 	// MOSTRANDO TODOS LOS PRODUCTOS =======================
 
-	$('.Item-de-categoria[category="all"]').click(function(){
+	$('.category_item[category="all"]').click(function(){
 		function showAll(){
-			$('Item-del-producto').show();
-			$('Item-del-producto').css('transform', 'scale(1)');
+			$('.product-item').show();
+			$('.product-item').css('transform', 'scale(1)');
 		} setTimeout(showAll,400);
 	});
 });
