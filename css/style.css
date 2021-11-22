@@ -43,7 +43,7 @@ display:flex;
 
 }
 
-.Lista-de-categorias{
+.category_list{
  display: flex;
  flex-direction: column;
  width: 18%;
@@ -52,7 +52,7 @@ display:flex;
     
 }
 
-.Lista-de-productos{
+.products-list{
 
     width: 82%;
 
@@ -63,7 +63,7 @@ display:flex;
 
 }
 
-.Lista-de-productos  .Item-del-producto{
+.products-list  .product-item{
 
 width: 22%;
 margin-left: 3%;
@@ -76,11 +76,11 @@ align-items: center;
 align-self: flex-start;
 }
 
-.Lista-de-productos .Item-del-producto image{
+.products-list .product-item image{
     width: 100%;
 
 }
-.Lista-de-productos  .Item-del-producto a{
+.products-list  .product-item a{
 
     display: block;
     width: 100%;
@@ -92,7 +92,7 @@ align-self: flex-start;
         text-decoration: none;
 }
 
-.Lista-de-categorias .Item-de-categoria{
+.category_list .category_item{
 display: block;
 width: 90%;
 padding: 15px 0;
