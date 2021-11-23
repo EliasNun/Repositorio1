@@ -14,7 +14,9 @@ body{
 	width: 90%;
 	margin: auto;
 }
-
+.Servicios-text-center{
+  background-color: #22577A;
+}
 .wrap > h2{
 	color: #494B4D;
 	font-weight: 400;
@@ -210,9 +212,6 @@ img{
 /* Las redes sociales */
 .fa-facebook-square{
    color:blue;
-   background-color: white;
-   width: 55px;
-   height: 75px;
     border-radius: 10px;
 }
 
@@ -224,9 +223,7 @@ img{
     color:crimson;
 }
 
-.section Servicios text-center{
-    background: #22577A;
-}
+
 
 /* Buscador para las cosas*/
 
